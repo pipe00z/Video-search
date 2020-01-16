@@ -14,7 +14,7 @@ body {
   align-items: center;
 }
 .header__img {
-  width: 80px;
+  width: 70px;
   margin-top: -10px;
   margin-left: 10px;
 }
@@ -61,7 +61,7 @@ ul:hover {
 }
 
 .main {
-  height: 300px;
+  height: 100px;
 }
 .main__title {
   color: black;
@@ -125,11 +125,11 @@ ul:hover {
 .carousel-item__details {
   background: linear-gradient(
     to top,
-    rbga(0, 0, 0, 0.9) 0%,
-    rbga(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
   );
   font-size: 10px;
-  opacity: 0;
+  opacity: 1;
   transition: 450ms opacity;
   padding: 10px;
   position: absolute;
@@ -137,4 +137,23 @@ ul:hover {
   left: 0;
   right: 0;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 0;
+}
+.carousel-item__details:hover {
+  opacity: 1;
+}
+.carousel-item__details img {
+  width: 20px;
+}
+.carousel-item__details--title {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.carousel-item__details--subtitle {
+  font-size: 10px;
+  color: white;
 }
