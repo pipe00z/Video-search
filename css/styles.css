@@ -52,8 +52,7 @@ ul:hover {
 }
 .header__menu--profile img {
   margin-right: 8px;
-  width: 40px;
-  height: 40px;
+  width: 45px;
 }
 .header__menu--profile p {
   margin: 0;
@@ -146,14 +145,14 @@ ul:hover {
   opacity: 1;
 }
 .carousel-item__details img {
-  width: 20px;
+  width: 25px;
 }
 .carousel-item__details--title {
   font-size: 12px;
   font-weight: bold;
-  color: white;
+  color: rgb(200, 200, 200);
 }
 .carousel-item__details--subtitle {
   font-size: 10px;
-  color: white;
+  color: rgb(200, 200, 200);
 }
